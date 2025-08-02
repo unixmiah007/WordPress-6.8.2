@@ -1,0 +1,12 @@
+/*
+Theme Name: ST Honey Shop
+*/
+
+body#tinymce.wp-editor { 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 10px; 
+}
+
+body#tinymce.wp-editor a {
+    color: #E46100;
+}

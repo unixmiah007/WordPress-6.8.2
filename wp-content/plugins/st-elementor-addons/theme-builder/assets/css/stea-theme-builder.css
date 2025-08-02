@@ -1,0 +1,69 @@
+.st-elementor-addons-header-nav {
+    position: relative;
+    z-index: 99
+}
+
+.steatb-header-sticky.steatb-appear .st-elementor-addons-header-nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    -webkit-animation-name: animationFade;
+    animation-name: animationFade;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-box-shadow: 0 10px 10px -15px rgb(0 0 0 / 35%);
+    box-shadow: 0 10px 10px -15px rgb(0 0 0 / 35%);
+    border-color: transparent
+}
+
+.admin-bar .steatb-appear .st-elementor-addons-header-nav {
+    top: 32px
+}
+
+.stea-hidden {
+    display: none
+}
+
+@-webkit-keyframes animationFade {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes animationFade {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.ast-container .st-elementor-addons-archive-wrapper,
+.ast-container .st-elementor-addons-singular-wrapper,
+.theme-generatepress .st-elementor-addons-archive-wrapper,
+.theme-generatepress .st-elementor-addons-singular-wrapper {
+    width: 100%
+}
+
+@media screen and (max-width:600px) {
+    .admin-bar .steatb-appear .st-elementor-addons-header-nav {
+        top: 0
+    }
+}

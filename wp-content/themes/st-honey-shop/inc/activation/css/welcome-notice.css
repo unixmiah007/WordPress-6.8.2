@@ -1,0 +1,167 @@
+.st-honey-shop-notice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  box-shadow: 0 0 5px rgb(0 0 0 / 0.1);
+  padding: 30px !important;
+}
+
+.st-honey-shop-notice .st-honey-shop-welcome-message {
+  max-width: 650px;
+}
+
+.st-honey-shop-notice .st-honey-shop-welcome-message .st-honey-shop-action-buttons {
+  margin-top: 30px;
+}
+
+.st-honey-shop-notice .st-honey-shop-welcome-message .st-honey-shop-action-buttons a .dashicons {
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.st-honey-shop-notice .image-wrap {
+  text-align: right;
+}
+
+.st-honey-shop-notice .image-wrap img {
+  display: inline-block;
+  width: 450px;
+}
+
+@media screen and (max-width: 1366px) {
+  .st-honey-shop-notice .image-wrap img {
+    max-width: 90%;
+  }
+  .st-honey-shop-notice .st-honey-shop-welcome-message p {
+    font-size: 13px;
+  }
+
+}
+
+.st-honey-shop-dot-flashing {
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 3px;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #3c434a;
+  color: #3c434a;
+  -webkit-animation: dotFlashing 1s infinite linear alternate;
+          animation: dotFlashing 1s infinite linear alternate;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+
+.st-honey-shop-dot-flashing::before, .st-honey-shop-dot-flashing::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.st-honey-shop-dot-flashing::before {
+  left: -6px;
+  width: 3px;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #3c434a;
+  color: #3c434a;
+  -webkit-animation: dotFlashing 1s infinite alternate;
+          animation: dotFlashing 1s infinite alternate;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.st-honey-shop-dot-flashing::after {
+  left: 6px;
+  width: 3px;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #3c434a;
+  color: #3c434a;
+  -webkit-animation: dotFlashing 1s infinite alternate;
+          animation: dotFlashing 1s infinite alternate;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes dotFlashing {
+  0% {
+    background-color: #3c434a;
+  }
+  50%,
+  100% {
+    background-color: #ebe6ff;
+  }
+}
+
+@keyframes dotFlashing {
+  0% {
+    background-color: #3c434a;
+  }
+  50%,
+  100% {
+    background-color: #ebe6ff;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* st-honey-shop-compare-feature Css start */
+.st-honey-shop-compare-feature{
+  width: 29%;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.st-honey-shop-compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: -8px;
+}
+.st-honey-shop-compare-th, .st-compare-td, .st-honey-shop-compare-td-pro , .st-honey-shop-compare-td-free, .st-honey-shop-compare-th-pro {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+.st-honey-shop-compare-th , .st-honey-shop-compare-th-pro {
+  background-color: #023252;
+  text-align: center;
+  color: white;
+}
+
+.st-honey-shop-compare-td-pro, .st-honey-shop-compare-td-free {
+  text-align: center;
+}
+.st-honey-shop-compare-feature img{
+  width: 18px;
+}
+.st-honey-shop-portal-btn a{
+  margin-bottom: 10px !important;
+  font-weight: bold;
+  text-align: center;
+  width: 49.5%;
+  padding: 5px !important;
+  border-radius: 25px !important;
+}
+.st-honey-shop-feature-comparison{
+  text-align: center;
+  background-color: #5f3afc;
+  color: white;
+  margin-top: 0;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: poppins;
+}

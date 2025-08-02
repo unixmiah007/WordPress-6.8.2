@@ -1,0 +1,430 @@
+/* Product Tabs */
+.stea-product-tabs p {
+    margin: 0;
+}
+
+.stea-product-tabs ol,
+.stea-product-tabs ul {
+    padding: 0;
+}
+
+.stea-product-tabs .woocommerce-noreviews {
+    margin-bottom: 10px;
+}
+
+.woocommerce div.product .stea-product-tabs .woocommerce-tabs ul.tabs,
+.woocommerce div.product .stea-product-tabs .woocommerce-tabs ul.tabs li {
+  overflow: visible;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.woocommerce div.product .stea-product-tabs .woocommerce-tabs ul.tabs li a {
+  display: block;
+  font-weight: normal;
+}
+
+.woocommerce div.product .stea-product-tabs .woocommerce-tabs ul.tabs::before,
+.woocommerce div.product .stea-product-tabs .woocommerce-tabs ul.tabs::after,
+.woocommerce div.product .stea-product-tabs .woocommerce-tabs ul.tabs li::before,
+.woocommerce div.product .stea-product-tabs .woocommerce-tabs ul.tabs li::after {
+  display: none;
+}
+
+.stea-tabs-position-above .stea-product-tabs .woocommerce-tabs ul.tabs li.active:after {
+  content: ' ';
+  display: block;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 0;
+  margin: 0;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stea-tabs-position-above .stea-product-tabs .woocommerce-tabs ul.tabs li a {
+    border-bottom: none !important;
+}
+
+.elementor-widget-stea-product-tabs .wc-tabs,
+.stea-tabs-position-left .elementor-widget-container .wc-tabs-wrapper,
+.stea-tabs-position-right .elementor-widget-container .wc-tabs-wrapper {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.elementor-widget-stea-product-tabs .wc-tabs,
+.stea-tabs-position-left .wc-tabs-wrapper,
+.stea-tabs-position-right .wc-tabs-wrapper {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.elementor-widget-stea-product-tabs.stea-tabs-position-above .wc-tabs {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+
+.stea-tabs-position-left>.elementor-widget-container .wc-tabs, 
+.stea-tabs-position-right>.elementor-widget-container .wc-tabs  {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.stea-tabs-position-left .wc-tabs, 
+.stea-tabs-position-right .wc-tabs  {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.stea-tabs-position-left>.elementor-widget-container>.wc-tabs-wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.stea-tabs-position-left>.wc-tabs-wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.stea-tabs-position-right>.elementor-widget-container .wc-tabs-wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+.stea-tabs-position-right .wc-tabs-wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+/* Tabs Position */
+.stea-tabs-hr-position-center>.elementor-widget-container .wc-tabs,
+.stea-tabs-hr-position-center>.elementor-widget-container>.wc-tabs-wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.stea-tabs-hr-position-center .wc-tabs,
+.stea-tabs-hr-position-center>.wc-tabs-wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.stea-tabs-hr-position-center>.elementor-widget-container .wc-tabs,
+.stea-tabs-hr-position-center>.elementor-widget-container>.wc-tabs-wrapper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.stea-tabs-hr-position-center .wc-tabs,
+.stea-tabs-hr-position-center>.wc-tabs-wrapper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.stea-tabs-hr-position-left>.elementor-widget-container .wc-tabs {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.stea-tabs-hr-position-left .wc-tabs {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.stea-tabs-hr-position-right>.elementor-widget-container .wc-tabs{
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+.stea-tabs-hr-position-right .wc-tabs{
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+
+.stea-tabs-hr-position-right>.elementor-widget-container .wc-tabs {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+.stea-tabs-hr-position-right .wc-tabs {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.elementor-widget-stea-product-tabs:not(.stea-tabs-hr-position-left):not(.stea-tabs-hr-position-right):not(.stea-tabs-hr-position-center) .elementor-widget-container>.stea-tabs>.stea-tabs-wrap {
+    width: 100%;
+}
+.elementor-widget-stea-product-tabs:not(.stea-tabs-hr-position-left):not(.stea-tabs-hr-position-right):not(.stea-tabs-hr-position-center) .stea-tabs>.stea-tabs-wrap {
+    width: 100%;
+}
+
+.elementor-widget-stea-product-tabs:not(.stea-tabs-hr-position-left):not(.stea-tabs-hr-position-right):not(.stea-tabs-hr-position-center) .elementor-widget-container>.stea-tabs>.stea-tabs-wrap>.stea-tab {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+}
+.elementor-widget-stea-product-tabs:not(.stea-tabs-hr-position-left):not(.stea-tabs-hr-position-right):not(.stea-tabs-hr-position-center) .stea-tabs>.stea-tabs-wrap>.stea-tab {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+}
+
+.elementor-widget-stea-product-tabs:not(.stea-tabs-hr-position-left):not(.stea-tabs-hr-position-right):not(.stea-tabs-hr-position-center) .elementor-widget-container>.stea-tabs>.stea-tabs-wrap>.stea-tab:first-of-type {
+    margin-left: 0 !important;
+}
+.elementor-widget-stea-product-tabs:not(.stea-tabs-hr-position-left):not(.stea-tabs-hr-position-right):not(.stea-tabs-hr-position-center) .stea-tabs>.stea-tabs-wrap>.stea-tab:first-of-type {
+    margin-left: 0 !important;
+}
+
+.elementor-widget-stea-product-tabs:not(.stea-tabs-hr-position-left):not(.stea-tabs-hr-position-right):not(.stea-tabs-hr-position-center) .elementor-widget-container>.stea-tabs>.stea-tabs-wrap>.stea-tab:last-of-type {
+    margin-right: 0 !important;
+}
+.elementor-widget-stea-product-tabs:not(.stea-tabs-hr-position-left):not(.stea-tabs-hr-position-right):not(.stea-tabs-hr-position-center) .stea-tabs>.stea-tabs-wrap>.stea-tab:last-of-type {
+    margin-right: 0 !important;
+}
+
+.elementor-widget-stea-product-tabs:not(.stea-tabs-hr-position-left):not(.stea-tabs-hr-position-right):not(.stea-tabs-hr-position-center) .elementor-widget-container>.stea-tabs .wc-tabs {
+    width: 100%;
+}
+.elementor-widget-stea-product-tabs:not(.stea-tabs-hr-position-left):not(.stea-tabs-hr-position-right):not(.stea-tabs-hr-position-center) .stea-tabs .wc-tabs {
+    width: 100%;
+}
+
+.elementor-widget-stea-product-tabs:not(.stea-tabs-hr-position-left):not(.stea-tabs-hr-position-right):not(.stea-tabs-hr-position-center) .elementor-widget-container .wc-tabs li {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+}
+.elementor-widget-stea-product-tabs:not(.stea-tabs-hr-position-left):not(.stea-tabs-hr-position-right):not(.stea-tabs-hr-position-center) .wc-tabs li {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+}
+
+.elementor-widget-stea-product-tabs .wc-tabs li {
+    position: relative;
+    text-align: center;
+}
+
+.woocommerce div.product .stea-product-tabs .woocommerce-tabs .panel {
+    margin: 0;
+}
+
+.elementor-widget-stea-product-tabs .woocommerce-Tabs-panel {
+    width: 100%;
+    display: none;
+}
+
+.woocommerce .elementor-widget-stea-product-tabs table.shop_attributes {
+    margin-bottom: 0;
+}
+
+.stea-product-additional-information table.shop_attributes {
+    margin-bottom: 0;
+}
+
+.stea-product-additional-information table td,
+.stea-product-additional-information table th,
+.elementor-widget-stea-product-tabs table td,
+.elementor-widget-stea-product-tabs table th {
+    vertical-align: middle;
+}
+
+.elementor-widget-stea-product-tabs .stea-product-tabs table,
+.elementor-widget-stea-product-tabs .stea-product-tabs tr th,
+.elementor-widget-stea-product-tabs .stea-product-tabs tr td,
+.stea-product-additional-information table.shop_attributes,
+.stea-product-additional-information table.shop_attributes td,
+.stea-product-additional-information table.shop_attributes th {
+  border: none;
+}
+
+/* according to woocommerce styles line-height */
+.elementor-widget-stea-product-tabs .form-submit #submit {
+    line-height: 1;
+}
+
+.elementor-widget-stea-product-tabs #reviews #comments ol.commentlist li .comment-text {
+    margin: 0 0 0 50px;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 1em 1em 0;
+}
+
+.elementor-widget-stea-product-tabs .comment_container {
+    position: relative;
+}
+
+.elementor-widget-stea-product-tabs .comment-reply-title {
+    display: none;
+}
+
+.elementor-widget-stea-product-tabs #reviews #comments ol.commentlist li .comment-text .description p {
+    margin-bottom: 0;
+}
+
+.elementor-widget-stea-product-tabs .commentlist li {
+    margin-bottom: 10px;
+}
+
+.stea-individual-rating {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.stea-product-tabs h2.woocommerce-Reviews-title:first-of-type {
+    display: none;
+}
+
+.elementor-widget-stea-product-tabs .woocommerce-Reviews .comment_container {
+    border-bottom: none;
+    padding: 0;
+    margin: 0;
+}
+
+.stea-individual-rating-cont {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+}
+
+.stea-individual-rating-cont span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    height: 100%;
+    background-color: black;
+}
+
+.elementor-widget-stea-product-tabs #reviews #comments ol.commentlist li img.avatar {
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    width: 32px;
+    height: auto;
+    background: #ebe9eb;
+    border: 1px solid #e4e1e3;
+    margin: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.elementor-widget-stea-product-tabs p.stars a {
+    position: relative;    
+    height: 1em;
+    width: 1em;
+    text-indent: -999em;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: 0;
+    font-size: inherit;
+    border: none;
+    width: 15px;
+    text-indent: -999999px;
+}
+
+.elementor-widget-stea-product-tabs p.stars.selected a.active:before,
+.elementor-widget-stea-product-tabs p.stars:hover a:before,
+.elementor-widget-stea-product-tabs p.stars.selected a:not(.active):before,
+.elementor-widget-stea-product-tabs p.stars.selected a.active:before {
+    content: "\e020";
+}
+
+.elementor-widget-stea-product-tabs p.stars a:before,
+.elementor-widget-stea-product-tabs p.stars a:hover~a:before,
+.elementor-widget-stea-product-tabs p.stars.selected a.active~a:before {
+    content: "\e021";
+}
+
+.elementor-widget-stea-product-tabs p.stars a::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    font-family: WooCommerce;
+    content: "\e021";
+    text-indent: 0;
+    opacity: 1;
+    font-size: inherit;
+}
+
+.elementor-widget-stea-product-tabs p.stars a:hover::before {
+    content: "\e020";
+}
+
+.elementor-widget-stea-product-tabs p.stars a.active::before {
+    content: "\e020";
+}
+
+.elementor-widget-stea-product-tabs .star-rating::before {
+    /* content: "\e021\e021\e021\e021\e021"; */
+    color: black;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.elementor-widget-stea-product-tabs .star-rating span::before {
+    /* content: "\e020\e020\e020\e020\e020"; */
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+
+.elementor-widget-stea-product-tabs .comment-form-author,
+.elementor-widget-stea-product-tabs .comment-form-email {
+    float: left;
+}
+
+.elementor-widget-stea-product-tabs.stea-forms-submit-justify .form-submit input {
+    display: block;
+    width: 100%;
+}

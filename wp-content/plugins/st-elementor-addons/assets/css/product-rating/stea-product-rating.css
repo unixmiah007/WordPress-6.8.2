@@ -1,0 +1,154 @@
+/* Product Rating */
+.stea-product-rating-flex.stea-product-rating-left .inner-block {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+
+.stea-product-rating-flex.stea-product-rating-center .inner-block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.stea-product-rating-flex.stea-product-rating-right .inner-block {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+
+.stea-product-rating a {
+    display: none;
+}
+
+.stea-pr-show-text-yes .stea-product-rating a {
+    display: block;
+}
+/* Rating */
+.stea-product-rating .stea-woo-rating i:before {
+    content: '\002605' !important;
+}
+
+
+/* Product Rating */
+.stea-woo-rating i {
+    display: inline;
+    position: relative;
+    font-family: "eicons";
+    font-style: normal;
+    line-height: 1;
+    overflow: hidden;
+}
+
+.stea-woo-rating i:before {
+    content: '\e934';
+    font-weight: 900;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: inherit;
+    font-family: inherit;
+    overflow: hidden;
+}
+
+.stea-woo-rating-style-2 .stea-woo-rating i:before {
+    content: '\002605';
+}
+
+.stea-woo-rating .stea-rating-marked,
+.stea-woo-rating .stea-rating-unmarked {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.stea-woo-rating i:last-of-type {
+    margin-right: 0 !important;
+}
+
+.stea-rating-icon-empty:before {
+    display: none !important;
+}
+
+.stea-rating-icon-5 .stea-rating-marked svg {
+    mask: -webkit-gradient(linear, left top, right top, color-stop(50%, black), color-stop(50%, transparent));
+    mask: linear-gradient(to right, black 50%, transparent 50%);
+    -webkit-mask: -webkit-gradient(linear, left top, right top, color-stop(50%, black), color-stop(50%, transparent));
+    -webkit-mask: linear-gradient(to right, black 50%, transparent 50%);
+}
+
+.stea-rating-icon-0:before,
+.stea-rating-icon-0 .stea-rating-marked {
+    width: 0;
+}
+
+.stea-rating-icon-1:before,
+.stea-rating-icon-1 .stea-rating-marked {
+    width: 20%;
+}
+
+.stea-rating-icon-2:before,
+.stea-rating-icon-2 .stea-rating-marked {
+    width: 30%;
+}
+
+.stea-rating-icon-3:before,
+.stea-rating-icon-3 .stea-rating-marked {
+    width: 35%;
+}
+
+.stea-rating-icon-4:before,
+.stea-rating-icon-4 .stea-rating-marked {
+    width: 40%;
+}
+
+.stea-rating-icon-5:before,
+.stea-rating-icon-5 .stea-rating-marked:not(:has(svg)) {
+    width: 50%;
+}
+
+.stea-rating-icon-6:before,
+.stea-rating-icon-6 .stea-rating-marked {
+    width: 60%;
+}
+
+.stea-rating-icon-7:before,
+.stea-rating-icon-7 .stea-rating-marked {
+    width: 65%;
+}
+
+.stea-rating-icon-8:before,
+.stea-rating-icon-8 .stea-rating-marked {
+    width: 70%;
+}
+
+.stea-rating-icon-9:before,
+.stea-rating-icon-9 .stea-rating-marked {
+    width: 80%;
+}
+
+.stea-rating-icon-full:before {
+    width: 100%;
+}
+
+.stea-rating-icon {
+  position: relative;
+  overflow: hidden;
+}
+
+.stea-rating-icon .stea-rating-marked {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+}
+
+.stea-woo-rating .stea-rating-icon,
+i[class*="stea-rating-icon-"] {
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}

@@ -1,0 +1,202 @@
+.stea-product-grid{
+    display: grid;
+    grid-template-columns: repeat(var(--stea-product-grid-number-of-columns-to-show, 3), 1fr);
+    gap: 20px;
+    text-align: var(--stea-product-grid-card-alignment);
+}
+.product-item{
+    padding: 20px;
+    border-radius: 8px;
+}
+/* .stea-product-grid .product-item a{
+    text-decoration: none;
+} */
+
+.stea-product-grid-product-title span{
+    color: var(--stea-product-grid-title-color-to-show, #000);
+}
+.stea-product-grid-product-title a, .stea-product-grid-product-title a:hover{
+    text-decoration: none !important;
+}
+.stea-product-grid-product-price{
+    color: var(--stea-product-grid-price-color-to-show, #000);
+}
+.stea-product-grid-product-price del{
+    color: var(--stea-product-grid-regular-price-color-to-show, #000);
+}
+
+.stea-product-grid-add-to-cart-btn{
+    background-color: #7A5AC2;
+    text-decoration: none !important;
+}
+.stea-product-grid-add-to-cart-btn{ 
+    color: var(--stea-product-grid-text-color-to-show, #ffffff) !important;
+}
+
+.stea-product-grid .product-item {
+    border: 1px solid #02010126; /* Default border */
+}
+.stea-product-grid-add-to-cart-btn:hover {
+    border-color: var(--stea-product-grid-border-color-to-show-on-hover , #e20000) !important;
+    text-decoration: none !important;
+    color: var(--stea-product-grid-text-color-to-show-on-hover, #e20000) !important;
+}
+
+.stea-add-to-wishlist:focus{
+    border: none;
+    outline: none !important;
+}
+
+/* .stea-product-grid-product-image img{
+    height: var(--stea-product-grid-image-height,px);
+} */
+
+
+.pagination .current {
+    font-weight: bold;
+    text-decoration: underline;
+    pointer-events: none;
+    color: #ff6600;
+}
+.pagination a {
+    color: #0073aa;
+    text-decoration: none;
+}
+.pagination a:hover {
+    text-decoration: underline;
+}
+
+
+
+.stea-load-more-btn {
+    transition: opacity 0.3s ease;
+}
+
+/* When the button is hidden, change opacity to 0 */
+.stea-load-more-btn.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+/* .stea-product-grid-title-btn-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.product-item {
+    position: relative;
+}
+
+.add-to-wishlist-btn-wrap {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10; /* Ensure it sits above image/content */
+}
+
+.stea-add-to-wishlist {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #d00; /* or any color you prefer */
+    cursor: pointer;
+}
+
+.stea-add-to-wishlist:hover {
+    background: none;
+    border: none;
+}
+.stea-add-to-wishlist:focus {
+    background: none;
+    border: none;
+    color: #d00; /* or any color you prefer */
+
+}
+
+.stea-add-to-wishlist.added i {
+    color: #e60023; /* change color when added, optional */
+}
+
+/* Procuct Card 2 Design */
+.stea-product-grid-product-image-card-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.hover-btn-wrap .add-to-wishlist-btn-wrap-card-2 {
+    position: static;
+}
+.product-card-2-rating-wrap {
+    align-self: center;
+}
+.product-card-2-discount-wrap {
+    align-self: center;
+}
+/* .hover-btn-wrap {
+    position: absolute;
+    align-items: center;
+    display: none;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.product-item:hover .hover-btn-wrap {
+    display: flex;
+    transition: 3000ms;
+} */
+
+.hover-btn-wrap {
+    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    z-index: 9;
+    opacity: 0;
+    transform: translateY(10px);
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.product-item:hover .hover-btn-wrap {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.stea-pro-rating-wrap-card-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Image OverLay On Hover */
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    /* transition: opacity 0.3s ease; */
+}
+
+.product-item:hover .image-overlay {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .add-to-wishlist-btn-wrap {
+        top: 5px;
+        right: 5px;
+    }
+    
+    .stea-add-to-wishlist {
+        font-size: 13px;
+    }
+}
+

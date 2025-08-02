@@ -1,0 +1,30 @@
+<svg width="100" height="130" viewBox="0 0 100 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 
+    SVG representation of a product card layout.
+    - Based on the provided image (1.png).
+    - Captures the main structural elements: image, overlay icons, rating, title, price, and badge.
+  -->
+
+  <!-- Main card container with border -->
+  <rect x="1" y="1" width="98" height="128" rx="4" stroke="#D1D5DB" stroke-width="2" fill="white"/>
+  
+  <!-- Image placeholder -->
+  <rect x="10" y="10" width="80" height="60" rx="2" fill="#E5E7EB"/>
+  
+  <!-- Overlay icons on the image -->
+  <circle cx="35" cy="40" r="8" fill="#D1D5DB"/>
+  <circle cx="50" cy="40" r="8" fill="#D1D5DB"/>
+  <circle cx="65" cy="40" r="8" fill="#D1D5DB"/>
+  
+  <!-- Star rating placeholder -->
+  <rect x="10" y="78" width="40" height="8" rx="2" fill="#E5E7EB"/>
+
+  <!-- Discount badge placeholder -->
+  <rect x="65" y="78" width="25" height="12" rx="3" fill="#F97316"/>
+  
+  <!-- Product title placeholder -->
+  <rect x="10" y="98" width="80" height="10" rx="2" fill="#D1D5DB"/>
+  
+  <!-- Price placeholder -->
+  <rect x="10" y="112" width="50" height="8" rx="2" fill="#E5E7EB"/>
+</svg>

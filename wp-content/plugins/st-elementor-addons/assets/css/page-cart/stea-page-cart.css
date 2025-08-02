@@ -1,0 +1,171 @@
+
+/*--------------------------------------------------------------
+ == Cart Page
+--------------------------------------------------------------*/
+.stea-cart-wrapper,
+.stea-cart-section-wrap .coupon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.stea-cart-section-table-wrap, 
+.stea-cart-wrapper .cart_totals {
+    overflow-x: auto;
+}
+
+.stea-cart-section-table-wrap table.shop_table {
+    margin-bottom: 0;
+}
+
+.stea-cart-section-table-wrap table.shop_table,
+.cart_totals table.shop_table {
+    border: none;
+}
+
+.stea-cart-wrapper table.shop_table,
+.woocommerce-cart .cart-collaterals .cart_totals table {
+    border-collapse: collapse;
+}
+
+.stea-cart-wrapper table th,
+.stea-cart-wrapper table td {
+    border: 0;
+}
+
+.stea-cart-wrapper form .form-row {
+    margin: 0;
+}
+
+.stea-cart-wrapper table.shop_table {
+    /* border-collapse: collapse !important; */
+    border-radius: 0;
+}
+
+.stea-cart-wrapper table.shop_table td {
+    border: none;
+}
+
+.elementor-widget[class*="elementor-widget-stea-"] table.shop_table .variation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.elementor-widget[class*="elementor-widget-stea-"] table.shop_table .wc-item-meta li {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+.elementor-widget[class*="elementor-widget-stea-"] .variation-Size,
+.elementor-widget[class*="elementor-widget-stea-"] .wc-item-meta-label {
+    float: none !important;
+}
+
+.stea-cart-vertical .stea-cart-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+@media screen and (max-width: 881px) {
+    .stea-cart-horizontal .stea-cart-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+}
+
+.stea-cart-wrapper table.shop_table img {
+    vertical-align: middle;
+}
+
+.stea-cart-horizontal .stea-cart-wrapper .cart-collaterals .cart_totals,
+.stea-cart-vertical .cart-collaterals .cart_totals {
+    float: none;
+    width: 100%;
+}
+
+.stea-cart-sticky-yes .cart-collaterals {
+    position: sticky;
+    top: 0;
+}
+
+.stea-cart-wrapper .select2-selection--single .select2-selection__rendered {
+    padding-left: 0;
+}
+
+.stea-checkout-flex-justify .wc-proceed-to-checkout a {
+    width: 100%;
+}
+
+.stea-cart-wrapper .form-row.coupon-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.stea-cart-wrapper .form-row.coupon-col .coupon-col-start {
+    /* flex: 2; */
+}
+
+.stea-cart-wrapper .form-row.coupon-col .coupon-col-end {
+    /* flex: 1; */
+    height: 100%;
+}
+
+.stea-cart-wrapper .form-row.coupon-col .coupon-col-end button {
+    width: 100%;
+    height: 100%;
+}
+ 
+.stea-cart-wrapper a.remove:before {
+    font-family: "Font Awesome 5 Free";
+    content: '\f00d';
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    text-indent: 0;
+}
+
+.stea-cart-wrapper .product-remove .remove {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    vertical-align: middle;
+    text-indent: -9999px;
+}
+
+.stea-cart-wrapper .product-remove .remove:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.stea-cart-wrapper img {
+    display: inline;
+}
+
+.stea-cart-wrapper .select2-selection {
+    position: relative;
+}
+
+.stea-cart-wrapper .select2-container--focus span,
+.stea-cart-wrapper .select2-container--default .select2-selection--single {
+    border: none !important;
+    outline: none !important;
+}

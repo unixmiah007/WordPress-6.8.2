@@ -1,0 +1,40 @@
+.stea-product-category-filter-checkbox {
+    list-style: none !important;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.stea-product-category-filter-checkbox li{
+    display: flex;
+}
+
+.stea-product-category-filter-checkbox li label, .cat-count{
+    margin: 0px !important;
+    ;
+}
+
+.item-text-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+/* show more button and search Start */
+.stea-show-more-align-justify .stea-show-more-checkbox-btn {
+    width: 100%;
+}
+
+.stea-hidden-category {
+    display: none !important;
+}
+
+.stea-product-grid-filter-checkbox input:focus,
+.stea-product-grid-filter-checkbox button {
+  outline: none;
+}
+
+.stea-product-category-filter-checkbox {
+    margin: 0px;
+}

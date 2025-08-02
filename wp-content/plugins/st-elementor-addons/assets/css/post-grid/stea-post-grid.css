@@ -1,0 +1,16 @@
+.stea-product-grid-wrap{
+    display: grid;
+    grid-template-columns: repeat(var(--stea-product-grid-wrap-number-of-columns-to-show, 3), 1fr);
+    text-align: var(--stea-product-grid-wrap-card-alignment);
+}
+
+.stea-product-grid-btn {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    text-decoration: none !important;
+}
+
+.stea-post-grid-title a {
+    text-decoration: none !important;
+}
